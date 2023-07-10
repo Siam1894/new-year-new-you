@@ -1,6 +1,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+/*header part*/
 .header{
     background: url(images/banner/banner2.png);
     background-size: cover;
@@ -38,7 +39,7 @@ body{
     height: 64px;
     width: 160px;
     font-size: 16px;
-    border: 3px solid black;
+    border:none;
     border-radius: 10px;
     background-color: #f15b22;
 
@@ -48,19 +49,21 @@ body{
 .banner-btn:hover{
     background: #fff;
 }
+/*section 1*/
 nav{
     list-style: none;
 
 }
   nav li:before{
     content:'✓';
-    color:aqua;
+    color:#16D887;
 }
 .my-priveus{
     display: flex;
     margin: 9%;
     position: center;
     gap: 50px;
+    margin-top:150px;
 
 
 }
@@ -76,6 +79,73 @@ nav{
     width: 572.18px;
    
 }
-
+.priveus-heading{
+    color: #151414;
+    font-size: 40px;
+}
+.priveus-pera{
+    color:#444343;
+    font-size: 16px;
+}
+/*section 2*/
+.my-plan{
+    margin-top: 150px;
+}
+.plan-heading{
+    font-size: 40px;
+   text-align: center;
+   color: #151414;
+}
+.container{
+    display: flex;
+    gap: 100px;
+    height: auto;
+    margin: auto;
+    padding-left: 200px;
+    text-align: center;
    
+}
+.p{ 
+    height: 92.6px;
+    width: 92.6px;
+
+}
+.hed{
+    font-size: 30px;
+    color: #151414;
+}
+.pera{
+    font-size: 16px;
+    color: #737272;
+}
+/*section 3*/
+  .call-section{
+    background:url(images/watch.png);
+    background-repeat: no-repeat;
+    height: auto;
+    margin: auto;
+    height: 300px;
+    width: 1140px;
+    margin-top: 150px;
+   
+  }
+  .heading{
+    font-size: 40px;
+    color: #fff;
+
+  }
+  .call{
+    height: 182px;
+    width: 459px;
+    margin: 50px;
+    padding-top: 40px;
+
+  }
+  /*footer part*/
+
+
+
+
+
+
   
