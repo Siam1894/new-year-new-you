@@ -1,0 +1,81 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background: url(images/banner/banner2.png);
+    background-size: cover;
+    background-position: center;
+    height: 809px;
+    width: 1600px;
+   
+   
+}
+.comment{
+    text-align: right;
+    align-items: top;
+    padding-right: 228px;
+    padding-top: 228px;
+  
+    
+   
+}
+.banner-heading{
+    font-size: 65px;
+    color: #151414;
+    height: auto;
+    margin: auto;
+
+    
+}
+.banner-title{
+    font-size: 16px;
+    font-family: normal;
+    color: #444343;
+
+}
+.banner-btn{
+   
+    height: 64px;
+    width: 160px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #f15b22;
+
+
+
+}
+.banner-btn:hover{
+    background: #fff;
+}
+nav{
+    list-style: none;
+
+}
+  nav li:before{
+    content:'✓';
+    color:aqua;
+}
+.my-priveus{
+    display: flex;
+    margin: 9%;
+    position: center;
+    gap: 50px;
+
+
+}
+.sections{
+    height:  400px;
+    width:418.33;
+    height: auto;
+    margin: auto;
+
+}
+.img-section{
+    height: 723.3px;
+    width: 572.18px;
+   
+}
+
+   
+  
